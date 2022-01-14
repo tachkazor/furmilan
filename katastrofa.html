@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    .kontakt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        overflow: hidden;
+        flex-flow:row;
+        justify-content:left;
+        background-color: orangered;
+        border: 10px;
+        border-style: solid;
+        border-radius: 10px;
+        color: white;
+        padding:16px 20px;
+        text-align: center;
+        font-size: 16px;
+        margin:4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .kontakt:hover {
+        opacity: 1;  
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .flex-container {
+        position:relative;
+        color: #000;
+        text-decoration: none;
+}
+
+.a:hover:hover {
+  color: #000;
+}
+
+.a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.a:hover::before {
+  transform: scaleX(1);
+}
+.o {
+    color:orangered
+} 
+bur {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+ 
+</style>
+<body>
+    <header>
+        <div class="kontakt">
+            <div>+3812773265</div>
+            <div>info@komeduzmeprase.com</div>
+        </div>
+            
+        <br>
+        <nav>
+            <div class="flex-container">
+                <div><img src="logo-weho.png"></div>
+                <div>HOME</div>
+                <div>ABOUT US</div>
+                <div>SERVICES</div>
+                <div>BLOG</div>
+                <div>GALLERY</div>
+                <div>FAQ</div>
+                <div>CONTACT</div>
+                <div>FREE QUOTE</div>
+              </div>
+               
+        </nav>
+        <hr>
+        <img src="mars.jpg" alt="subu" width="400" height="300">
+        <div class="img" img src="mars.jpg">
+        <p><strong>Who we are</strong></p>
+        <p class="o">In the sea of moving companies, we are the right choice!</p>
+        
+        <br>
+        <br>
+    </header>
+    <section>
+      
+    <footer>
+        <h3>The Generics</h3>
+        <ul>
+            <li><img src="tos.jpg"></li>
+        </ul>
+    </footer>
+</body>
+</html>
